@@ -1,0 +1,14 @@
+# https://github.com/github/gitignore 참조
+.DS_Store
+
+# ###########################################
+# CodeIgniter
+application/cache/*
+!application/cache/index.html
+!application/cache/.htaccess
+
+application/logs/log-*.php
+application/logs/!index.html
+
+application/config/config.php
+application/config/database.php
